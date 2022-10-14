@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "Bates Motel",
+        "synopsis": "A contemporary prequel to Psycho, giving a portrayal of how Norman Bates' psyche unravels through his teenage years, and how deeply intricate his relationship with his mother, Norma, truly is.",
+        "year": "2013 - 2017",
+        "youtube": "7lCWKKNGiKs",
+        "cover": "./img/batesmotel.jpg",
+        "link": "https://www.imdb.com/title/tt2188671/"
+    },
+    {
+        "id": 2,
+        "title": "Lost",
+        "synopsis": "The survivors of a plane crash are forced to work together in order to survive on a seemingly deserted tropical island.",
+        "year": "2004 - 2010",
+        "youtube": "KTu8iDynwNc",
+        "cover": "./img/lost.jpg",
+        "link": "https://www.imdb.com/title/tt0411008/"
+    },
+    {
+        "id": 3,
+        "title": "Sense8",
+        "synopsis": "A group of people around the world are suddenly linked mentally, and must find a way to survive being hunted by those who see them as a threat to the world's order.",
+        "year": "2015 - 2018",
+        "youtube": "iKpKAlbJ7BQ",
+        "cover": "./img/sense8.jpg",
+        "link": "https://www.imdb.com/title/tt2431438/"
+    },
+    {
+        "id": 4,
+        "title": "Stranger Things",
+        "synopsis": "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.",
+        "year": "2016 - present",
+        "youtube": "mnd7sFt5c3A",
+        "cover": "./img/strangerthings.jpg",
+        "link": "https://www.imdb.com/title/tt4574334/"
+    },
+    {
+        "id": 5,
+        "title": "The 100",
+        "synopsis": "Set 97 years after a nuclear war destroyed civilization, when a spaceship housing humanity's lone survivors sends 100 juvenile delinquents back to Earth, hoping to repopulate the planet.",
+        "year": "2014 - 2020",
+        "youtube": "ia1Fbg96vL0",
+        "cover": "./img/the100.jpg",
+        "link": "https://www.imdb.com/title/tt2661044/"
+    },
+    {
+        "id": 6,
+        "title": "The Killing",
+        "synopsis": "A police investigation, the saga of a grieving family, and a Seattle mayoral campaign all interlock after the body of 17-year-old Rosie Larsen is found in the trunk of a submerged car.",
+        "year": "2011 - 2014",
+        "youtube": "OkbfvPeH3G0",
+        "cover": "./img/thekilling.jpg",
+        "link": "https://www.imdb.com/title/tt1637727/"
+    },
+    {
+        "id": 7,
+        "title": "The Office",
+        "synopsis": "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.",
+        "year": "2005 - 2013",
+        "youtube": "tNcDHWpselE",
+        "cover": "./img/theoffice.jpg",
+        "link": "https://www.imdb.com/title/tt0386676/"
+    },
+    {
+        "id": 8,
+        "title": "The Strain",
+        "synopsis": "A mysterious viral outbreak with hallmarks of an ancient and evil strain of vampirism ravages the city of New York.",
+        "year": "2014 - 2017",
+        "youtube": "2zpRKfLYXD4",
+        "cover": "./img/thestrain.jpg",
+        "link": "https://www.imdb.com/title/tt2654620/"
+    }
+]
