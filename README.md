@@ -44,6 +44,9 @@ First of all we need to install dependencies, run in terminal
 ```
 npm install
 ```
+npm run install-cordova
+npm run build-cordova
+npm run emulate
 
 ## NPM Scripts
 

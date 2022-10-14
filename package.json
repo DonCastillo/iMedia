@@ -11,7 +11,10 @@
     "build": "cross-env NODE_ENV=production vite build",
     "build-cordova": "cross-env TARGET=cordova cross-env NODE_ENV=production vite build && node ./build/build-cordova.js && cd cordova && npx cordova build",
     "postinstall": "cpy --flat ./node_modules/framework7-icons/fonts/*.* ./src/fonts/ && cpy --flat ./node_modules/material-icons/iconfont/*.* ./src/fonts/",
-    "emulate": "cd cordova && npx cordova run --emulator"
+    "emulate": "cd cordova && npx cordova run --emulator",
+    "install-android": "cd cordova && npx cordova platform add android",
+    "install-cordova-dev": "cd cordova && npm install",
+    "install-cordova": "npm run install-cordova-dev && npm run install-android"
   },
   "browserslist": [
     "IOS >= 13",
