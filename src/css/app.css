@@ -23,6 +23,12 @@
 .bg-primary {
   background-color: var(--f7-theme-color);
 }
+.bg-primary-dark {
+  background-color: var(--f7-theme-color-shade);
+}
+.bg-primary-light {
+  background-color: var(--f7-theme-color-tint);
+}
 .text-secondary {
   color: var(--f7-color-green)
 }
