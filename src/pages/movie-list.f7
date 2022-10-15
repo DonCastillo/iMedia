@@ -1,0 +1,38 @@
+<template>
+    <div class="page" data-name="movie-list">
+
+        <!-- Top Navbar -->
+        <div class="navbar navbar-large">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+                <div class="title sliding">iMedia</div>
+                <div class="right">
+                    <a href="#" class="link icon-only panel-open" data-panel="right">
+                        <i class="icon f7-icons if-not-md">question_circle</i>
+                        <i class="icon material-icons if-md">help_outline</i>
+                    </a>
+                </div>
+                <div class="title-large">
+                    <div class="title-large-text ">Movies</div>
+                </div>
+            </div>
+        </div>
+        <!-- Top Navbar -->
+
+        <!-- page content -->
+        <div class="page-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eius, voluptas numquam, doloremque atque placeat, eveniet sed voluptatem cupiditate magni harum dignissimos porro optio impedit laboriosam temporibus ipsum libero qui. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus similique ducimus nesciunt alias non, eligendi animi cupiditate nulla aliquid sunt expedita hic tenetur voluptas sit possimus ratione. In, excepturi mollitia! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, tenetur magni? Animi, rem modi omnis ut blanditiis expedita tempore dolores soluta, quibusdam ratione assumenda aspernatur veniam magni ad nisi minus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam enim laborum temporibus, veniam, excepturi impedit iusto, ipsa non similique voluptatibus nemo ad quidem ut quos repellat! Velit, necessitatibus quibusdam? Deserunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum totam at magni ea fugit facilis quaerat, autem voluptas laborum assumenda quam molestias cum perspiciatis tenetur error ex voluptatum dicta accusamus.
+
+        </div>
+        <!-- page content -->
+
+
+    </div>
+</template>
+<script>
+    export default (props) => {
+        
+        //console.log('props: ', $f7)
+        return $render;
+    };
+</script>

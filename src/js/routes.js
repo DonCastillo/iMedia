@@ -5,6 +5,7 @@ import FormPage from '../pages/form.f7';
 import CatalogPage from '../pages/catalog.f7';
 import ProductPage from '../pages/product.f7';
 import SettingsPage from '../pages/settings.f7';
+import MovieList from '../pages/movie-list.f7';
 
 import DynamicRoutePage from '../pages/dynamic-route.f7';
 import RequestAndLoad from '../pages/request-and-load.f7';
@@ -14,6 +15,10 @@ var routes = [
   {
     path: '/',
     component: HomePage,
+  },
+  {
+    path: '/movies/',
+    component: MovieList
   },
   {
     path: '/about/',
