@@ -22,7 +22,13 @@ var routes = [
   },
   {
     path: '/movies/',
-    component: MovieList
+    async: async function({ router, to, resolve }) {
+      const app = router.app;
+      app.preloader.show();
+      const movies = await store.getters.movies;
+      app.preloader.hide();
+      resolve({component: MovieList}, {props: {movies: movies}});
+    }
   },
   {
     path: '/movies/:id',

@@ -39,10 +39,15 @@
     </div>
 </template>
 <script>
-    export default (props, {$f7, $on, $store, $onBeforeMount, $onMounted, $onBeforeUnmount, $onUnmounted }) => {
-        let movies = [];
-        console.log($store.getters.movies.value);
-        movies = $store.getters.movies.value;
+    //export default (props, {$f7, $on, $store, $onBeforeMount, $onMounted, $onBeforeUnmount, $onUnmounted }) => {
+    //    let movies = [];
+    //    console.log($store.getters.movies.value);
+    //    movies = $store.getters.movies.value;
+    //    return $render;
+    //};
+    export default (props) => {
+        const movies = props.movies.value;
+        console.log(movies);
         return $render;
     };
 </script>
