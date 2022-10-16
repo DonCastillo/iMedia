@@ -5,7 +5,12 @@
         <div class="navbar navbar-large">
             <div class="navbar-bg"></div>
             <div class="navbar-inner">
-                <div class="title sliding">iRecommend</div>
+                <div class="left">
+                    <a href="#" class="navbar-logo-link">
+                        <img class="navbar-logo" src="./static/images/logo.png" alt="App logo" />
+                    </a>
+                </div>
+                <div class="title sliding">Recommended Movies</div>
                 <div class="right">
                     <a href="#" class="link icon-only panel-open" data-panel="right">
                         <i class="icon f7-icons if-not-md">question_circle</i>

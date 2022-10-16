@@ -13,7 +13,13 @@
             </div>
           </div>
           <div class="page-content">
-            <div class="block">iRecommend is an app that recommends underrated movies, books, and TV shows to users.</div>
+            <div class="block">
+              <img id="app-logo" src="./static/images/logo.png" alt="App logo" />
+              iRecommend is an app that recommends underrated movies, books, and TV shows to users.
+            </div>
+            <div class="block">
+              Developed by Don Castillo (c) 2022
+            </div>
           </div>
         </div>
       </div>
