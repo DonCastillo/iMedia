@@ -1,0 +1,70 @@
+<template>
+    <div class="page" data-name="">
+
+        <!-- Top Navbar -->
+        <div class="navbar navbar-transparent">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner sliding bg-primary">
+                <div class="left">
+                    <a href="#" class="link icon-only back">
+                        <i class="icon f7-icons if-not-md">chevron_left</i>
+                        <i class="icon material-icons if-md">chevron_left</i>
+                        Back
+                    </a>
+                </div>
+                <div class="title">${currentTV.title}</div>
+            </div>
+        </div>
+        <!-- Top Navbar -->
+        
+
+        <!-- Page Content -->
+        <div class="page-content bg-primary-light text-white">
+            <div class="poster bgImg" style="background-image:url('./static/images/tv/${currentTV.banner}');"></div>
+            <div class="block-title text-white">
+                <h1>${currentTV.title}</h1>
+                <p id="year">${currentTV.year}</p>
+            </div>
+            <div class="block">
+                <div class="row">
+                    <div class="col-33">
+                        <img src="./static/images/tv/${currentTV.cover}" alt="" style="width:100%;"/>
+                    </div>
+                    <div class="col-66 text-white">
+                        <div id="synopsis">
+                            ${currentTV.synopsis}
+                        </div>
+                        <a href="${currentTV.to_watch}" 
+                           class="col link button button-large button-outline external">
+                            <i class="icon f7-icons if-not-md">eye</i>
+                            <i class="icon material-icons if-md">visibility</i>
+                            Watch Here
+                        </a>
+                        <a href="${currentTV.link}" 
+                           class="col button button-large button-outline external">
+                            <i class="icon f7-icons if-not-md">info_circle</i>
+                            <i class="icon material-icons if-md">info</i>
+                            More Info
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="block">
+                <h3>Watch Trailer</h3>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/${currentTV.youtube}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <!-- Page Content -->
+
+    </div>
+</template>
+
+<script>
+    export default (props) => {
+        const currentTV = props.tv;
+        console.log(currentTV);
+        return $render;
+    };
+</script>

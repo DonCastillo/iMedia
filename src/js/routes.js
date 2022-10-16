@@ -10,6 +10,7 @@ import MovieSingle from '../pages/movie-single.f7';
 import BookList from '../pages/book-list.f7';
 import BookSingle from '../pages/book-single.f7';
 import TVList from '../pages/tv-list.f7';
+import TVSingle from '../pages/tv-single.f7';
 
 
 
@@ -73,6 +74,16 @@ var routes = [
       const tv = await store.getters.tv;
       app.preloader.hide();
       resolve({component: TVList}, {props: {tv: tv}});
+    }
+  },
+  {
+    path: '/tv/:id',
+    async: async function({ router, to, resolve }) {
+      const app = router.app;
+      app.preloader.show();
+      const tv = await store.dispatch('getTV', {id: to.params.id});
+      app.preloader.hide();
+      resolve({component: TVSingle}, {props: {tv: tv}});
     }
   },
   {
