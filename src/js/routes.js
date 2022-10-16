@@ -1,4 +1,4 @@
-
+import store from './store';
 import HomePage from '../pages/home.f7';
 import AboutPage from '../pages/about.f7';
 import FormPage from '../pages/form.f7';
@@ -6,10 +6,14 @@ import CatalogPage from '../pages/catalog.f7';
 import ProductPage from '../pages/product.f7';
 import SettingsPage from '../pages/settings.f7';
 import MovieList from '../pages/movie-list.f7';
+import MovieSingle from '../pages/movie-single.f7'
 
 import DynamicRoutePage from '../pages/dynamic-route.f7';
 import RequestAndLoad from '../pages/request-and-load.f7';
 import NotFoundPage from '../pages/404.f7';
+
+console.log('inside routes: ', store);
+
 
 var routes = [
   {
@@ -19,6 +23,16 @@ var routes = [
   {
     path: '/movies/',
     component: MovieList
+  },
+  {
+    path: '/movies/:id',
+    async: async function({ router, to, resolve }) {
+      const app = router.app;
+      app.preloader.show();
+      const movie = await store.dispatch('getMovie', {id: to.params.id});
+      app.preloader.hide();
+      resolve({component: MovieSingle}, {props: {movie: movie}});
+    }
   },
   {
     path: '/about/',

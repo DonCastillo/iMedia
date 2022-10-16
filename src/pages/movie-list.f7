@@ -20,19 +20,29 @@
         <!-- Top Navbar -->
 
         <!-- page content -->
-        <div class="page-content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eius, voluptas numquam, doloremque atque placeat, eveniet sed voluptatem cupiditate magni harum dignissimos porro optio impedit laboriosam temporibus ipsum libero qui. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus similique ducimus nesciunt alias non, eligendi animi cupiditate nulla aliquid sunt expedita hic tenetur voluptas sit possimus ratione. In, excepturi mollitia! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, tenetur magni? Animi, rem modi omnis ut blanditiis expedita tempore dolores soluta, quibusdam ratione assumenda aspernatur veniam magni ad nisi minus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam enim laborum temporibus, veniam, excepturi impedit iusto, ipsa non similique voluptatibus nemo ad quidem ut quos repellat! Velit, necessitatibus quibusdam? Deserunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum totam at magni ea fugit facilis quaerat, autem voluptas laborum assumenda quam molestias cum perspiciatis tenetur error ex voluptatum dicta accusamus.
-
+        <div class="page-content bg-primary-dark">
+            <div class="block">
+                <div class="row no-gap">
+                    ${movies.map(movie => $h`
+                        <a href="/movies/${movie.id}" class="col-50 medium-25">
+                            <div class="card no-border card-thumbnail" 
+                                 style="background-image:url('${movie.cover.replace('.', 'js/api/movies')}')">
+                                <div class="card-header"></div>
+                            </div>
+                        </a>    
+                    `)}
+                </div>
+            </div>
         </div>
         <!-- page content -->
-
 
     </div>
 </template>
 <script>
-    export default (props) => {
-        
-        //console.log('props: ', $f7)
+    export default (props, {$f7, $on, $store, $onBeforeMount, $onMounted, $onBeforeUnmount, $onUnmounted }) => {
+        let movies = [];
+        console.log($store.getters.movies.value);
+        movies = $store.getters.movies.value;
         return $render;
     };
 </script>

@@ -1,0 +1,40 @@
+<template>
+    <div class="page" data-name="">
+
+        <!-- Top Navbar -->
+        <div class="navbar navbar-transparent">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner sliding bg-primary">
+                <div class="left">
+                    <a href="#" class="link icon-only back">
+                        <i class="icon f7-icons if-not-md">chevron_left</i>
+                        <i class="icon material-icons if-md">chevron_left</i>
+                        Back
+                    </a>
+                </div>
+                <div class="title">${currentMovie.title}</div>
+            </div>
+        </div>
+        <!-- Top Navbar -->
+        
+
+        <div class="page-content bg-primary-light">
+            <div class="poster bgImg" style="background-image:url('./static/images/movies/${currentMovie.cover}');">
+
+            </div>
+            <div class="block">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eaque pariatur quaerat, amet maxime earum magni officia. Assumenda saepe doloribus voluptas quidem possimus pariatur ea cumque, corrupti consequuntur commodi maxime.
+            </div>
+            ${currentMovie.title}
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore cupiditate quibusdam eligendi quaerat beatae. Tenetur reprehenderit harum itaque asperiores voluptatem? Molestiae, eum enim? Veritatis sapiente aspernatur vero doloribus autem maiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti veniam in facere asperiores. Aperiam aut doloribus vel itaque dicta? Dolor consectetur numquam placeat tempora reprehenderit, eum at voluptatem est alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur commodi corporis fuga consectetur dolores sapiente officia non laborum. Impedit quidem optio minus, nostrum labore possimus illo incidunt neque quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, tempora ex impedit sed hic dignissimos vel quod ipsa voluptatem pariatur harum. Ex aliquam obcaecati velit eveniet itaque necessitatibus at voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore cupiditate quibusdam eligendi quaerat beatae. Tenetur reprehenderit harum itaque asperiores voluptatem? Molestiae, eum enim? Veritatis sapiente aspernatur vero doloribus autem maiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti veniam in facere asperiores. Aperiam aut doloribus vel itaque dicta? Dolor consectetur numquam placeat tempora reprehenderit, eum at voluptatem est alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur commodi corporis fuga consectetur dolores sapiente officia non laborum. Impedit quidem optio minus, nostrum labore possimus illo incidunt neque quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, tempora ex impedit sed hic dignissimos vel quod ipsa voluptatem pariatur harum. Ex aliquam obcaecati velit eveniet itaque necessitatibus at voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore cupiditate quibusdam eligendi quaerat beatae. Tenetur reprehenderit harum itaque asperiores voluptatem? Molestiae, eum enim? Veritatis sapiente aspernatur vero doloribus autem maiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti veniam in facere asperiores. Aperiam aut doloribus vel itaque dicta? Dolor consectetur numquam placeat tempora reprehenderit, eum at voluptatem est alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur commodi corporis fuga consectetur dolores sapiente officia non laborum. Impedit quidem optio minus, nostrum labore possimus illo incidunt neque quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, tempora ex impedit sed hic dignissimos vel quod ipsa voluptatem pariatur harum. Ex aliquam obcaecati velit eveniet itaque necessitatibus at voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore cupiditate quibusdam eligendi quaerat beatae. Tenetur reprehenderit harum itaque asperiores voluptatem? Molestiae, eum enim? Veritatis sapiente aspernatur vero doloribus autem maiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti veniam in facere asperiores. Aperiam aut doloribus vel itaque dicta? Dolor consectetur numquam placeat tempora reprehenderit, eum at voluptatem est alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur commodi corporis fuga consectetur dolores sapiente officia non laborum. Impedit quidem optio minus, nostrum labore possimus illo incidunt neque quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, tempora ex impedit sed hic dignissimos vel quod ipsa voluptatem pariatur harum. Ex aliquam obcaecati velit eveniet itaque necessitatibus at voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore cupiditate quibusdam eligendi quaerat beatae. Tenetur reprehenderit harum itaque asperiores voluptatem? Molestiae, eum enim? Veritatis sapiente aspernatur vero doloribus autem maiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti veniam in facere asperiores. Aperiam aut doloribus vel itaque dicta? Dolor consectetur numquam placeat tempora reprehenderit, eum at voluptatem est alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur commodi corporis fuga consectetur dolores sapiente officia non laborum. Impedit quidem optio minus, nostrum labore possimus illo incidunt neque quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, tempora ex impedit sed hic dignissimos vel quod ipsa voluptatem pariatur harum. Ex aliquam obcaecati velit eveniet itaque necessitatibus at voluptate.
+        </div>
+
+    </div>
+</template>
+
+<script>
+    export default (props) => {
+        const currentMovie = props.movie;
+        return $render;
+    };
+</script>

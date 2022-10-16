@@ -14,6 +14,9 @@
   --f7-color-green-rgb:  82, 190, 128;
   --f7-color-green-shade: #3fa86c;
   --f7-color-green-tint:  #70c996 ;
+
+  --f7-card-border-radius: 0;
+  /* --f7-navbar-large-title-height:100px; */
 }
 
 /* Your app custom styles here */
@@ -94,4 +97,23 @@
 .dark .navbar-large-transparent,
 .dark .navbar-large.navbar-transparent {
   --f7-navbar-large-title-text-color: #fff;
+}
+
+.card {
+  padding:0;
+  margin:10px;
+  height:200px;
+  background-color: var(--f7-theme-color-shade);
+}
+.bgImg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.card-thumbnail {
+
+  border-radius:7px;
+}
+.poster {
+  height:200px;
 }

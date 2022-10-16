@@ -5,7 +5,8 @@
         "synopsis": "In a future world devastated by disease, a convict is sent back in time to gather information about the man-made virus that wiped out most of the human population on the planet.",
         "year": 1995,
         "youtube": "wZNcVYqnCFw",
-        "cover": "./img/12monkeys.jpg",
+        "cover": "12monkeys.jpg",
+        "banner": "12monkeys-banner.jpg",
         "link": "https://www.imdb.com/title/tt0114746/"
     },
     {
@@ -14,7 +15,8 @@
         "synopsis": "After crash-landing in the snowswept Andes, a Uruguayan rugby team have no choice but to turn to desperate measures in order to survive.",
         "year": 1993,
         "youtube": "3P5N0kd6pYY",
-        "cover": "./img/alive.jpg",
+        "cover": "alive.jpg",
+        "banner": "alive-banner.jpg",
         "link": "https://www.imdb.com/title/tt0106246/"
     },
     {
@@ -23,7 +25,8 @@
         "synopsis": "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
         "year": 1985,
         "youtube": "qvsgGtivCgs",
-        "cover": "./img/backtothefuture.jpg",
+        "cover": "backtothefuture.jpg",
+        "banner": "backtothefuture-banner.jpg",
         "link": "https://www.imdb.com/title/tt0088763/"
     },
     {
@@ -32,7 +35,8 @@
         "synopsis": "In the future, the Japanese government captures a class of ninth-grade students and forces them to kill each other under the revolutionary 'Battle Royale' act.",
         "year": 2000,
         "youtube": "N0p1t-dC7Ko",
-        "cover": "./img/battleroyale.jpg",
+        "cover": "battleroyale.jpg",
+        "banner": "battleroyale-banner.jpg",
         "link": "https://www.imdb.com/title/tt0266308/"
     },
     {
@@ -41,7 +45,8 @@
         "synopsis": "Five college graduates rent a cabin in the woods and begin to fall victim to a horrifying flesh-eating virus, which attracts the unwanted attention of the homicidal locals.",
         "year": 2002,
         "youtube": "Wda8vC9j8vA",
-        "cover": "./img/cabinfever.jpg",
+        "cover": "cabinfever.jpg",
+        "banner": "cabinfever-banner.jpg",
         "link": "https://www.imdb.com/title/tt0303816/"
     },
     {
@@ -50,7 +55,8 @@
         "synopsis": "During the Vietnam War, a soldier finds himself the outsider of his own squad when they unnecessarily kidnap a female villager.",
         "year": 1989,
         "youtube": "bVC_JB76Xkw",
-        "cover": "./img/casualtiesofwar.jpg",
+        "cover": "casualtiesofwar.jpg",
+        "banner": "casualtiesofwar-banner.jpg",
         "link": "https://www.imdb.com/title/tt0097027/"
     },
     {
@@ -59,7 +65,8 @@
         "synopsis": "Six complete strangers with widely varying personalities are involuntarily placed in an endless maze containing deadly traps.",
         "year": 1997,
         "youtube": "Esjc0rPj3K4",
-        "cover": "./img/cube.jpg",
+        "cover": "cube.jpg",
+        "banner": "cube-banner.jpg",
         "link": "https://www.imdb.com/title/tt0123755/"
     },
     {
@@ -68,7 +75,8 @@
         "synopsis": "Eight strangers awaken with no memory, in a puzzling cube-shaped room where the laws of physics do not always apply.",
         "year": 2002,
         "youtube": "AreV_1yqT9Q",
-        "cover": "./img/cube2.jpg",
+        "cover": "cube2.jpg",
+        "banner": "cube2-banner.jpg",
         "link": "https://www.imdb.com/title/tt0285492/"
     },
     {
@@ -77,7 +85,8 @@
         "synopsis": "A young programmer whose job is to watch over the reality-warping Cube defies orders to rescue an innocent mother trapped in one of its rooms.",
         "year": 2004,
         "youtube": "YBdLl2CFd50",
-        "cover": "./img/cubezero.jpg",
+        "cover": "cubezero.jpg",
+        "banner": "cubezero-banner.jpg",
         "link": "https://www.imdb.com/title/tt0377713/"
     },
     {
@@ -86,7 +95,8 @@
         "synopsis": "Jewish brothers in Nazi-occupied Eastern Europe escape into the Belarussian forests, where they join Russian resistance fighters, and endeavor to build a village, in order to protect themselves and about one thousand Jewish non-combatants.",
         "year": 2008,
         "youtube": "FVNR8PrtnQc",
-        "cover": "./img/defiance.jpg",
+        "cover": "defiance.jpg",
+        "banner": "defiance-banner.jpg",
         "link": "https://www.imdb.com/title/tt1034303/"
     },
     {
@@ -95,7 +105,8 @@
         "synopsis": "The life stories of the six men who raised the flag at the Battle of Iwo Jima, a turning point in World War II.",
         "year": 2006,
         "youtube": "zmMygl7Ugs8",
-        "cover": "./img/flagofourfathers.jpg",
+        "cover": "flagofourfathers.jpg",
+        "banner": "flagofourfathers-banner.jpg",
         "link": "https://www.imdb.com/title/tt0418689/"
     },
     {
@@ -104,7 +115,8 @@
         "synopsis": "In a near future, a lonely writer develops an unlikely relationship with an operating system designed to meet his every need.",
         "year": 2013,
         "youtube": "ne6p6MfLBxc",
-        "cover": "./img/her.jpg",
+        "cover": "her.jpg",
+        "banner": "her-banner.jpg",
         "link": "https://www.imdb.com/title/tt1798709/"
     },
     {
@@ -113,7 +125,8 @@
         "synopsis": "Three backpackers head to a Slovak city that promises to meet their hedonistic expectations, with no idea of the hell that awaits them.",
         "year": 2005,
         "youtube": "C2Kfp3zVBKs",
-        "cover": "./img/hostel.jpg",
+        "cover": "hostel.jpg",
+        "banner": "hostel-banner.jpg",
         "link": "https://www.imdb.com/title/tt0450278/"
     },
     {
@@ -122,7 +135,8 @@
         "synopsis": "A dramatization of one man's rescue of Jewish refugees in the German-occupied Polish city of Lvov.",
         "year": 2011,
         "youtube": "nb2TyPfxaQU",
-        "cover": "./img/indarkness.jpg",
+        "cover": "indarkness.jpg",
+        "banner": "indarkness-banner.jpg",
         "link": "https://www.imdb.com/title/tt1417075/"
     },
     {
@@ -131,7 +145,8 @@
         "synopsis": "In 2074, when the mob wants to get rid of someone, the target is sent into the past, where a hired gun awaits - someone like Joe - who one day learns the mob wants to 'close the loop' by sending back Joe's future self for assassination.",
         "year": 2012,
         "youtube": "2iQuhsmtfHw",
-        "cover": "./img/looper.jpg",
+        "cover": "looper.jpg",
+        "banner": "looper-banner.jpg",
         "link": "https://www.imdb.com/title/tt1276104/"
     },
     {
@@ -140,7 +155,8 @@
         "synopsis": "For his final assignment, a top temporal agent must pursue the one criminal that has eluded him throughout time. The chase turns into a unique, surprising and mind-bending exploration of love, fate, identity and time travel taboos.",
         "year": 2014,
         "youtube": "FcK_UiVV40",
-        "cover": "./img/predestination.jpg",
+        "cover": "predestination.jpg",
+        "banner": "predestination-banner.jpg",
         "link": "https://www.imdb.com/title/tt2397535/"
     },
     {
@@ -149,7 +165,8 @@
         "synopsis": "Two highway road workers spend the summer of 1988 away from their city lives. The isolated landscape becomes a place of misadventure as the men find themselves at odds with each other and the women they left behind.",
         "year": 2013,
         "youtube": "gJGEu268KvI",
-        "cover": "./img/princeavalanche.jpg",
+        "cover": "princeavalanche.jpg",
+        "banner": "princeavalanche-banner.jpg",
         "link": "https://www.imdb.com/title/tt2195548/"
     },
     {
@@ -158,7 +175,8 @@
         "synopsis": "In 1931, three half-white, half-Aboriginal girls escape after being plucked from their houses to be trained as domestic staff, and set off on a journey across the Outback.",
         "year": 2002,
         "youtube": "Lbnk8wSVMaM",
-        "cover": "./img/rabbitprooffence.jpg",
+        "cover": "rabbitprooffence.jpg",
+        "banner": "rabbitprooffence-banner.jpg",
         "link": "https://www.imdb.com/title/tt0252444/"
     },
     {
@@ -167,7 +185,8 @@
         "synopsis": "A U.S. fighter pilot's epic struggle of survival after being shot down on a mission over Laos during the Vietnam War.",
         "year": 2006,
         "youtube": "FszyJGL8wLY",
-        "cover": "./img/rescuedawn.jpg",
+        "cover": "rescuedawn.jpg",
+        "banner": "rescuedawn-banner.jpg",
         "link": "https://www.imdb.com/title/tt0462504/"
     },
     {
@@ -176,7 +195,8 @@
         "synopsis": "A TV program selects people at random to kill one another for fame and their freedom.",
         "year": 2001,
         "youtube": "oKM5Qq-ZuLM",
-        "cover": "./img/series7.jpg",
+        "cover": "series7.jpg",
+        "banner": "series7-banner.jpg",
         "link": "https://www.imdb.com/title/tt0251031/"
     },
     {
@@ -185,7 +205,8 @@
         "synopsis": "A nightmarish futuristic fantasy about the controlling power of big corporations and an innocent cop who stumbles on the truth.",
         "year": 1973,
         "youtube": "N_jGOKYHxaQ",
-        "cover": "./img/soylentgreen.jpg",
+        "cover": "soylentgreen.jpg",
+        "banner": "soylentgreen-banner.jpg",
         "link": "https://www.imdb.com/title/tt0070723/"
     },
     {
@@ -194,7 +215,8 @@
         "synopsis": "During the summer of 1979, a group of friends witness a train crash and investigate subsequent unexplained events in their small town.",
         "year": 2011,
         "youtube": "0XuYxh67w",
-        "cover": "./img/super8.jpg",
+        "cover": "super8.jpg",
+        "banner": "super8-banner.jpg",
         "link": "https://www.imdb.com/title/tt1650062/"
     },
     {
@@ -203,7 +225,8 @@
         "synopsis": "The story of King George VI, his impromptu ascension to the throne of the British Empire in 1936, and the speech therapist who helped the unsure monarch overcome his stammer.",
         "year": 2010,
         "youtube": "gSw6ei5tdbg",
-        "cover": "./img/thekingsspeech.jpg",
+        "cover": "thekingsspeech.jpg",
+        "banner": "thekingsspeech-banner.jpg",
         "link": "https://www.imdb.com/title/tt0454841/"
     },
     {
@@ -212,7 +235,8 @@
         "synopsis": "A traveling family falls victim to a group of mutated cannibals in a desert far away from civilization.",
         "year": 2006,
         "youtube": "CUQd9OB75dw",
-        "cover": "./img/thehillshaveeyes.jpg",
+        "cover": "thehillshaveeyes.jpg",
+        "banner": "thehillshaveeyes-banner.jpg",
         "link": "https://www.imdb.com/title/tt0454841/"
     },
     {
@@ -221,7 +245,8 @@
         "synopsis": "A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.",
         "year": 2002,
         "youtube": "BFwGqLa_oAo",
-        "cover": "./img/thepianist.jpg",
+        "cover": "thepianist.jpg",
+        "banner": "thepianist-banner.jpg",
         "link": "https://www.imdb.com/title/BFwGqLa_oAo/"
     },
     {
@@ -230,7 +255,8 @@
         "synopsis": "Siberian gulag escapees travel four thousand miles by foot to freedom in India.",
         "year": 2010,
         "youtube": "mMRJonfmQY0",
-        "cover": "./img/thewayback.jpg",
+        "cover": "thewayback.jpg",
+        "banner": "thewayback-banner.jpg",
         "link": "https://www.imdb.com/title/tt1023114/"
     },
     {
@@ -239,7 +265,8 @@
         "synopsis": "A historic Hollywood hotel houses a supernatural evil. It's been subdued for decades, but when renovations start, a series of murders take place.",
         "year": 2004,
         "youtube": "_7SRE9Pw-ts",
-        "cover": "./img/toolboxmurders.jpg",
+        "cover": "toolboxmurders.jpg",
+        "banner": "toolboxmurders-banner.jpg",
         "link": "https://www.imdb.com/title/tt0367153/"
     },
     {
@@ -248,7 +275,8 @@
         "synopsis": "Adam and Eden fell in love as teens despite the fact that they live on twinned worlds with gravities that pull in opposite directions. Ten years after a forced separation, Adam sets out on a dangerous quest to reconnect with his love.",
         "year": 2012,
         "youtube": "XPdlrOP22NM",
-        "cover": "./img/upsidedown.jpg",
+        "cover": "upsidedown.jpg",
+        "banner": "upsidedown-banner.jpg",
         "link": "https://www.imdb.com/title/tt1374992/"
     }
 ]
