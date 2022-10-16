@@ -42,13 +42,13 @@
         </div>
       </div>
 
-      <div id="view-home" class="view view-main view-init tab " data-name="movies" data-url="/movies/">
+      <div id="view-home" class="view view-main view-init tab tab-active" data-name="movies" data-url="/movies/">
       </div>
 
       <div id="view-books" class="view view-init tab" data-name="books" data-url="/books/">
       </div>
 
-      <div id="view-tv" class="view view-init tab tab-active" data-name="tv" data-url="/tv/">
+      <div id="view-tv" class="view view-init tab" data-name="tv" data-url="/tv/">
       </div>
     </div>
 
