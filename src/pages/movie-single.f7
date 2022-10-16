@@ -18,16 +18,45 @@
         <!-- Top Navbar -->
         
 
-        <div class="page-content bg-primary-light">
-            <div class="poster bgImg" style="background-image:url('./static/images/movies/${currentMovie.cover}');">
-
+        <!-- Page Content -->
+        <div class="page-content bg-primary-light text-white">
+            <div class="poster bgImg" style="background-image:url('./static/images/movies/${currentMovie.banner}');"></div>
+            <div class="block-title text-white">
+                <h1>${currentMovie.title}</h1>
+                <p id="year">${currentMovie.year}</p>
             </div>
             <div class="block">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eaque pariatur quaerat, amet maxime earum magni officia. Assumenda saepe doloribus voluptas quidem possimus pariatur ea cumque, corrupti consequuntur commodi maxime.
+                <div class="row">
+                    <div class="col-33">
+                        <img src="./static/images/movies/${currentMovie.cover}" alt="" style="width:100%;"/>
+                    </div>
+                    <div class="col-66 text-white">
+                        <div id="synopsis">
+                            ${currentMovie.synopsis}
+                        </div>
+                        <a href="${currentMovie.to_watch}" 
+                           class="col link button button-large button-outline external">
+                            <i class="icon f7-icons if-not-md">eye</i>
+                            <i class="icon material-icons if-md">visibility</i>
+                            Watch Here
+                        </a>
+                        <a href="${currentMovie.link}" 
+                           class="col button button-large button-outline external">
+                            <i class="icon f7-icons if-not-md">info_circle</i>
+                            <i class="icon material-icons if-md">info</i>
+                            More Info
+                        </a>
+                    </div>
+                </div>
             </div>
-            ${currentMovie.title}
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore cupiditate quibusdam eligendi quaerat beatae. Tenetur reprehenderit harum itaque asperiores voluptatem? Molestiae, eum enim? Veritatis sapiente aspernatur vero doloribus autem maiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti veniam in facere asperiores. Aperiam aut doloribus vel itaque dicta? Dolor consectetur numquam placeat tempora reprehenderit, eum at voluptatem est alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur commodi corporis fuga consectetur dolores sapiente officia non laborum. Impedit quidem optio minus, nostrum labore possimus illo incidunt neque quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, tempora ex impedit sed hic dignissimos vel quod ipsa voluptatem pariatur harum. Ex aliquam obcaecati velit eveniet itaque necessitatibus at voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore cupiditate quibusdam eligendi quaerat beatae. Tenetur reprehenderit harum itaque asperiores voluptatem? Molestiae, eum enim? Veritatis sapiente aspernatur vero doloribus autem maiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti veniam in facere asperiores. Aperiam aut doloribus vel itaque dicta? Dolor consectetur numquam placeat tempora reprehenderit, eum at voluptatem est alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur commodi corporis fuga consectetur dolores sapiente officia non laborum. Impedit quidem optio minus, nostrum labore possimus illo incidunt neque quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, tempora ex impedit sed hic dignissimos vel quod ipsa voluptatem pariatur harum. Ex aliquam obcaecati velit eveniet itaque necessitatibus at voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore cupiditate quibusdam eligendi quaerat beatae. Tenetur reprehenderit harum itaque asperiores voluptatem? Molestiae, eum enim? Veritatis sapiente aspernatur vero doloribus autem maiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti veniam in facere asperiores. Aperiam aut doloribus vel itaque dicta? Dolor consectetur numquam placeat tempora reprehenderit, eum at voluptatem est alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur commodi corporis fuga consectetur dolores sapiente officia non laborum. Impedit quidem optio minus, nostrum labore possimus illo incidunt neque quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, tempora ex impedit sed hic dignissimos vel quod ipsa voluptatem pariatur harum. Ex aliquam obcaecati velit eveniet itaque necessitatibus at voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore cupiditate quibusdam eligendi quaerat beatae. Tenetur reprehenderit harum itaque asperiores voluptatem? Molestiae, eum enim? Veritatis sapiente aspernatur vero doloribus autem maiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti veniam in facere asperiores. Aperiam aut doloribus vel itaque dicta? Dolor consectetur numquam placeat tempora reprehenderit, eum at voluptatem est alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur commodi corporis fuga consectetur dolores sapiente officia non laborum. Impedit quidem optio minus, nostrum labore possimus illo incidunt neque quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, tempora ex impedit sed hic dignissimos vel quod ipsa voluptatem pariatur harum. Ex aliquam obcaecati velit eveniet itaque necessitatibus at voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore cupiditate quibusdam eligendi quaerat beatae. Tenetur reprehenderit harum itaque asperiores voluptatem? Molestiae, eum enim? Veritatis sapiente aspernatur vero doloribus autem maiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti veniam in facere asperiores. Aperiam aut doloribus vel itaque dicta? Dolor consectetur numquam placeat tempora reprehenderit, eum at voluptatem est alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur commodi corporis fuga consectetur dolores sapiente officia non laborum. Impedit quidem optio minus, nostrum labore possimus illo incidunt neque quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, tempora ex impedit sed hic dignissimos vel quod ipsa voluptatem pariatur harum. Ex aliquam obcaecati velit eveniet itaque necessitatibus at voluptate.
+            <div class="block">
+                <h3>Watch Trailer</h3>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/${currentMovie.youtube}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
+        <!-- Page Content -->
 
     </div>
 </template>
@@ -35,6 +64,7 @@
 <script>
     export default (props) => {
         const currentMovie = props.movie;
+        console.log(currentMovie);
         return $render;
     };
 </script>

@@ -25,8 +25,8 @@
                 <div class="row no-gap">
                     ${movies.map(movie => $h`
                         <a href="/movies/${movie.id}" class="col-50 medium-25">
-                            <div class="card no-border card-thumbnail" 
-                                 style="background-image:url('${movie.cover.replace('.', 'js/api/movies')}')">
+                            <div class="card no-border card-thumbnail bgImg" 
+                                 style="background-image:url('./static/images/movies/${movie.cover}')">
                                 <div class="card-header"></div>
                             </div>
                         </a>    
