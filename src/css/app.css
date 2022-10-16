@@ -123,6 +123,31 @@
 .poster {
   height:200px;
 }
+.book-page .poster {
+  height:50vh;
+}
+.book-page h1 {
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  margin-bottom:10px;
+  text-align: center;
+}
+.book-page .bgImg {
+  background-size: contain;
+}
+.book-page #author {
+  text-align: center;
+  margin-top:0;
+  font-size: 1.3rem;
+  font-weight: 200;
+  margin:0;
+}
+.book-page #publication {
+  text-align: center;
+  margin-top:0;
+  font-size: 1rem;
+  font-weight: 200;
+}
 #synopsis {
   margin-bottom:20px;
 }

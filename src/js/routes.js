@@ -8,6 +8,8 @@ import SettingsPage from '../pages/settings.f7';
 import MovieList from '../pages/movie-list.f7';
 import MovieSingle from '../pages/movie-single.f7';
 import BookList from '../pages/book-list.f7';
+import BookSingle from '../pages/book-single.f7';
+
 
 
 import DynamicRoutePage from '../pages/dynamic-route.f7';
@@ -50,6 +52,16 @@ var routes = [
       const books = await store.getters.books;
       app.preloader.hide();
       resolve({component: BookList}, {props: {books: books}});
+    }
+  },
+  {
+    path: '/books/:id',
+    async: async function({ router, to, resolve }) {
+      const app = router.app;
+      app.preloader.show();
+      const book = await store.dispatch('getBook', {id: to.params.id});
+      app.preloader.hide();
+      resolve({component: BookSingle}, {props: {book: book}});
     }
   },
   {

@@ -1,0 +1,66 @@
+<template>
+    <div class="page book-page" data-name="">
+
+        <!-- Top Navbar -->
+        <div class="navbar navbar-transparent">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner sliding bg-primary">
+                <div class="left">
+                    <a href="#" class="link icon-only back">
+                        <i class="icon f7-icons if-not-md">chevron_left</i>
+                        <i class="icon material-icons if-md">chevron_left</i>
+                        Back
+                    </a>
+                </div>
+                <div class="title">${currentBook.title}</div>
+            </div>
+        </div>
+        <!-- Top Navbar -->
+        
+
+        <!-- Page Content -->
+        <div class="page-content bg-primary-light text-white">
+            <div class="poster bgImg" style="background-image:url('./static/images/books/${currentBook.cover}');"></div>
+            <div class="block text-white">
+                <h1>${currentBook.title}</h1>
+                <p id="author">${currentBook.author}</p>
+                <p id="publication">Published in ${currentBook.year}</p>
+            </div>
+            <div class="block">
+                <div class="row">
+                    <div class="col">
+                        <a href="${currentBook.to_read}" 
+                            class="col link button button-large button-outline external">
+                            <i class="icon f7-icons if-not-md">eye</i>
+                            <i class="icon material-icons if-md">visibility</i>
+                            Get Book
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="${currentBook.link}" 
+                            class="col button button-large button-outline external">
+                            <i class="icon f7-icons if-not-md">info_circle</i>
+                            <i class="icon material-icons if-md">info</i>
+                            More Info
+                        </a>
+                    </div>
+                </div>
+                
+
+            </div>
+            <div class="block">
+                ${currentBook.synopsis}
+            </div>
+        </div>
+        <!-- Page Content -->
+
+    </div>
+</template>
+
+<script>
+    export default (props) => {
+        const currentBook = props.book;
+        console.log(currentBook);
+        return $render;
+    };
+</script>
