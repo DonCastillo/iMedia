@@ -5,8 +5,10 @@
         "synopsis": "A contemporary prequel to Psycho, giving a portrayal of how Norman Bates' psyche unravels through his teenage years, and how deeply intricate his relationship with his mother, Norma, truly is.",
         "year": "2013 - 2017",
         "youtube": "7lCWKKNGiKs",
-        "cover": "./img/batesmotel.jpg",
-        "link": "https://www.imdb.com/title/tt2188671/"
+        "cover": "batesmotel.jpg",
+        "link": "https://www.imdb.com/title/tt2188671/",
+        "to_watch": "https://www.amazon.ca/Bates-Motel-Complete-Sous-titres-fran%C3%A7ais/dp/B073FPHKXC/ref=sr_1_4?keywords=Bates+Motel&qid=1665899952&qu=eyJxc2MiOiI0LjMwIiwicXNhIjoiNC4wNiIsInFzcCI6IjMuMDEifQ%3D%3D&s=dvd&sr=1-4",
+        "banner": "batesmotel-banner.jpg"
     },
     {
         "id": 2,
@@ -14,8 +16,10 @@
         "synopsis": "The survivors of a plane crash are forced to work together in order to survive on a seemingly deserted tropical island.",
         "year": "2004 - 2010",
         "youtube": "KTu8iDynwNc",
-        "cover": "./img/lost.jpg",
-        "link": "https://www.imdb.com/title/tt0411008/"
+        "cover": "lost.jpg",
+        "link": "https://www.imdb.com/title/tt0411008/",
+        "to_watch": "https://www.amazon.ca/Lost-The-Complete-Seasons-1-5/dp/B0021L8FO4/ref=sr_1_1?crid=2UL46R1H0EKQR&keywords=lost+complete+series&qid=1665900156&qu=eyJxc2MiOiIyLjkxIiwicXNhIjoiMy4wNCIsInFzcCI6IjEuOTIifQ%3D%3D&s=dvd&sprefix=lost+complete+series%2Cdvd%2C150&sr=1-1",
+        "banner": "lost-banner.jpg"
     },
     {
         "id": 3,
@@ -23,8 +27,10 @@
         "synopsis": "A group of people around the world are suddenly linked mentally, and must find a way to survive being hunted by those who see them as a threat to the world's order.",
         "year": "2015 - 2018",
         "youtube": "iKpKAlbJ7BQ",
-        "cover": "./img/sense8.jpg",
-        "link": "https://www.imdb.com/title/tt2431438/"
+        "cover": "sense8.jpg",
+        "link": "https://www.imdb.com/title/tt2431438/",
+        "to_watch": "https://www.netflix.com/ca/title/80025744",
+        "banner": "sense8-banner.jpg"
     },
     {
         "id": 4,
@@ -32,8 +38,10 @@
         "synopsis": "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.",
         "year": "2016 - present",
         "youtube": "mnd7sFt5c3A",
-        "cover": "./img/strangerthings.jpg",
-        "link": "https://www.imdb.com/title/tt4574334/"
+        "cover": "strangerthings.jpg",
+        "link": "https://www.imdb.com/title/tt4574334/",
+        "to_watch": "https://www.netflix.com/ca/title/80057281",
+        "banner": "strangerthings-banner.jpg"
     },
     {
         "id": 5,
@@ -41,8 +49,10 @@
         "synopsis": "Set 97 years after a nuclear war destroyed civilization, when a spaceship housing humanity's lone survivors sends 100 juvenile delinquents back to Earth, hoping to repopulate the planet.",
         "year": "2014 - 2020",
         "youtube": "ia1Fbg96vL0",
-        "cover": "./img/the100.jpg",
-        "link": "https://www.imdb.com/title/tt2661044/"
+        "cover": "the100.jpg",
+        "link": "https://www.imdb.com/title/tt2661044/",
+        "to_watch": "https://www.netflix.com/ca/title/70283264",
+        "banner": "the100-banner.jpg"
     },
     {
         "id": 6,
@@ -50,8 +60,10 @@
         "synopsis": "A police investigation, the saga of a grieving family, and a Seattle mayoral campaign all interlock after the body of 17-year-old Rosie Larsen is found in the trunk of a submerged car.",
         "year": "2011 - 2014",
         "youtube": "OkbfvPeH3G0",
-        "cover": "./img/thekilling.jpg",
-        "link": "https://www.imdb.com/title/tt1637727/"
+        "cover": "thekilling.jpg",
+        "link": "https://www.imdb.com/title/tt1637727/",
+        "to_watch": "https://www.netflix.com/ca/title/70180183",
+        "banner": "thekilling-banner.jpg"
     },
     {
         "id": 7,
@@ -59,8 +71,10 @@
         "synopsis": "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.",
         "year": "2005 - 2013",
         "youtube": "tNcDHWpselE",
-        "cover": "./img/theoffice.jpg",
-        "link": "https://www.imdb.com/title/tt0386676/"
+        "cover": "theoffice.jpg",
+        "link": "https://www.imdb.com/title/tt0386676/",
+        "to_watch": "https://www.netflix.com/ca/title/70136120",
+        "banner": "theoffice-banner.jpg"
     },
     {
         "id": 8,
@@ -68,7 +82,9 @@
         "synopsis": "A mysterious viral outbreak with hallmarks of an ancient and evil strain of vampirism ravages the city of New York.",
         "year": "2014 - 2017",
         "youtube": "2zpRKfLYXD4",
-        "cover": "./img/thestrain.jpg",
-        "link": "https://www.imdb.com/title/tt2654620/"
+        "cover": "thestrain.jpg",
+        "link": "https://www.imdb.com/title/tt2654620/",
+        "to_watch": "https://dvd.netflix.com/Movie/The-Strain/80022448",
+        "banner": "thestrain-banner.jpg"
     }
 ]
