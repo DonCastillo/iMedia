@@ -29,12 +29,12 @@
             <i class="icon material-icons if-md">movie</i>
             <span class="tabbar-label">Movies</span>
           </a>
-          <a href="#view-catalog" class="tab-link">
+          <a href="#view-books" class="tab-link">
             <i class="icon f7-icons if-not-md">book</i>
             <i class="icon material-icons if-md">menu_book</i>
             <span class="tabbar-label">Books</span>
           </a>
-          <a href="#view-settings" class="tab-link">
+          <a href="#view-tv" class="tab-link">
             <i class="icon f7-icons if-not-md">tv</i>
             <i class="icon material-icons if-md">personal_video</i>
             <span class="tabbar-label">TV</span>
@@ -42,21 +42,20 @@
         </div>
       </div>
 
-      <!-- Your main view/tab, should have "view-main" class. It also has "tab-active" class -->
       <div id="view-home" class="view view-main view-init tab " data-name="movies" data-url="/movies/">
-        <!-- Home page will be loaded here dynamically from / route -->
       </div>
 
-      <!-- Catalog View -->
-      <div id="view-catalog" class="view view-init tab" data-name="books" data-url="/books/">
-        <!-- Catalog page will be loaded here dynamically from /catalog/ route -->
+      <div id="view-books" class="view view-init tab" data-name="books" data-url="/books/">
       </div>
 
-      <!-- Settings View -->
-      <div id="view-settings" class="view view-init tab tab-active" data-name="tv" data-url="/tv/">
-        <!-- Settings page will be loaded here dynamically from /settings/ route -->
+      <div id="view-tv" class="view view-init tab tab-active" data-name="tv" data-url="/tv/">
       </div>
     </div>
 
   </div>
 </template>
+<script>
+  export default((props, {$f7, $}) => {
+    return $render;
+  }); 
+</script>
