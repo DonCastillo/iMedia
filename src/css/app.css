@@ -149,16 +149,10 @@
 }
 .book-page #author {
   text-align: center;
-  margin-top:0;
-  font-size: 1.3rem;
-  font-weight: 200;
-  margin:0;
+  margin-top:3px;
 }
 .book-page #publication {
   text-align: center;
-  margin-top:0;
-  font-size: 1rem;
-  font-weight: 200;
 }
 #synopsis {
   margin-bottom:20px;

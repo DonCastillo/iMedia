@@ -1,0 +1,111 @@
+:root {
+    --heading-font-family: 'Kanit', sans-serif;
+    --paragraph-font-family: 'Lato', sans-serif;
+}
+
+.heading-thin {
+    font-family: var(--heading-font-family);
+    font-weight: 100;
+}
+.heading-extralight {
+    font-family: var(--heading-font-family);
+    font-weight: 200;
+}
+.heading-light {
+    font-family: var(--heading-font-family);
+    font-weight: 300;
+}
+.heading-regular {
+    font-family: var(--heading-font-family);
+    font-weight: 400;
+}
+.heading-medium {
+    font-family: var(--heading-font-family);
+    font-weight: 500;
+}
+.heading-semibold {
+    font-family: var(--heading-font-family);
+    font-weight: 600;
+}
+.heading-bold {
+    font-family: var(--heading-font-family);
+    font-weight: 700;
+}
+.heading-extrabold {
+    font-family: var(--heading-font-family);
+    font-weight: 800;
+}
+.heading-black {
+    font-family: var(--heading-font-family);
+    font-weight: 900;
+}
+
+.para-thin {
+    font-family: var(--paragraph-font-family);
+    font-weight: 100;
+}
+.para-extralight {
+    font-family: var(--paragraph-font-family);
+    font-weight: 200;
+}
+.para-light {
+    font-family: var(--paragraph-font-family);
+    font-weight: 300;
+}
+.para-regular {
+    font-family: var(--paragraph-font-family);
+    font-weight: 400;
+}
+.para-medium {
+    font-family: var(--paragraph-font-family);
+    font-weight: 500;
+}
+.para-semibold {
+    font-family: var(--paragraph-font-family);
+    font-weight: 600;
+}
+.para-bold {
+    font-family: var(--paragraph-font-family);
+    font-weight: 700;
+}
+.para-extrabold {
+    font-family: var(--paragraph-font-family);
+    font-weight: 800;
+}
+.para-black {
+    font-family: var(--paragraph-font-family);
+    font-weight: 900;
+}
+
+.page-content {
+    font-family: var(--paragraph-font-family);
+    font-weight: 300;
+}
+#synopsis {
+    font-size:1rem;
+    word-spacing: 2px;
+}
+.navbar .title-large-text,
+.navbar .title,
+.block-title h1,
+.block h3 {
+    font-family: var(--heading-font-family);
+    font-weight: 400;
+}
+#year {
+    font-family: var(--heading-font-family);
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+#publication {
+    font-size:1rem;
+    font-weight: 300;
+}
+#author {
+    font-weight: 300;
+    font-size:1.2rem;
+}
+.tabbar-label {
+    font-family: var(--heading-font-family);
+    font-weight: 100;
+}

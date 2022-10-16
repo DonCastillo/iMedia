@@ -6,6 +6,7 @@ import 'framework7/css/bundle';
 
 // Import Icons and App Custom Styles
 import '../css/icons.css';
+import '../css/font.css';
 import '../css/app.css';
 // Import Cordova APIs
 import cordovaApp from './cordova-app.js';

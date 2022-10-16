@@ -21,9 +21,9 @@
         <!-- Page Content -->
         <div class="page-content bg-primary-light text-white">
             <div class="poster bgImg" style="background-image:url('./static/images/books/${currentBook.cover}');"></div>
-            <div class="block text-white">
+            <div class="block-title text-white">
                 <h1>${currentBook.title}</h1>
-                <p id="author">${currentBook.author}</p>
+                <p id="author">by ${currentBook.author}</p>
                 <p id="publication">Published in ${currentBook.year}</p>
             </div>
             <div class="block">
@@ -49,7 +49,9 @@
 
             </div>
             <div class="block">
-                ${currentBook.synopsis}
+                <div id="synopsis">
+                    ${currentBook.synopsis}
+                </div>
             </div>
         </div>
         <!-- Page Content -->
