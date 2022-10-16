@@ -43,17 +43,17 @@
       </div>
 
       <!-- Your main view/tab, should have "view-main" class. It also has "tab-active" class -->
-      <div id="view-home" class="view view-main view-init tab tab-active" data-name="movies" data-url="/movies/">
+      <div id="view-home" class="view view-main view-init tab " data-name="movies" data-url="/movies/">
         <!-- Home page will be loaded here dynamically from / route -->
       </div>
 
       <!-- Catalog View -->
-      <div id="view-catalog" class="view view-init tab" data-name="catalog" data-url="/catalog/">
+      <div id="view-catalog" class="view view-init tab tab-active" data-name="books" data-url="/books/">
         <!-- Catalog page will be loaded here dynamically from /catalog/ route -->
       </div>
 
       <!-- Settings View -->
-      <div id="view-settings" class="view view-init tab" data-name="settings" data-url="/settings/">
+      <div id="view-settings" class="view view-init tab" data-name="tv" data-url="/tv/">
         <!-- Settings page will be loaded here dynamically from /settings/ route -->
       </div>
     </div>

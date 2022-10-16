@@ -13,7 +13,7 @@
                     </a>
                 </div>
                 <div class="title-large">
-                    <div class="title-large-text ">Movies</div>
+                    <div class="title-large-text ">Books</div>
                 </div>
             </div>
         </div>
@@ -23,10 +23,10 @@
         <div class="page-content bg-primary-dark">
             <div class="block">
                 <div class="row no-gap">
-                    ${movies.map(movie => $h`
-                        <a href="/movies/${movie.id}" class="col-50 medium-25">
+                    ${books.map(book => $h`
+                        <a href="/books/${book.id}" class="col-50 medium-25">
                             <div class="card no-border card-thumbnail bgImg" 
-                                 style="background-image:url('./static/images/movies/${movie.cover}')">
+                                 style="background-image:url('./static/images/books/${book.cover}')">
                                 <div class="card-header"></div>
                             </div>
                         </a>    
@@ -40,8 +40,8 @@
 </template>
 <script>
     export default (props) => {
-        const movies = props.movies.value;
-        console.log(movies);
+        const books = props.books.value;
+        console.log(books);
         return $render;
     };
 </script>
