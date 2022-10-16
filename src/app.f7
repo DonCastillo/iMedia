@@ -48,12 +48,12 @@
       </div>
 
       <!-- Catalog View -->
-      <div id="view-catalog" class="view view-init tab tab-active" data-name="books" data-url="/books/">
+      <div id="view-catalog" class="view view-init tab" data-name="books" data-url="/books/">
         <!-- Catalog page will be loaded here dynamically from /catalog/ route -->
       </div>
 
       <!-- Settings View -->
-      <div id="view-settings" class="view view-init tab" data-name="tv" data-url="/tv/">
+      <div id="view-settings" class="view view-init tab tab-active" data-name="tv" data-url="/tv/">
         <!-- Settings page will be loaded here dynamically from /settings/ route -->
       </div>
     </div>
