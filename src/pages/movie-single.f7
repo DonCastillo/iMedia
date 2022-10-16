@@ -62,7 +62,7 @@
 </template>
 
 <script>
-    export default (props) => {
+    export default (props, {$f7}) => {
         const currentMovie = props.movie;
         console.log(currentMovie);
         return $render;

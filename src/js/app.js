@@ -20,7 +20,7 @@ import App from '../app.f7';
 
 var device = getDevice();
 var app = new Framework7({
-  name: 'iMedia', // App name
+  name: 'iRecommend', // App name
   theme: 'auto', // Automatic theme detection
   el: '#app', // App root element
   component: App, // App main component

@@ -9,11 +9,11 @@
           <div class="navbar">
             <div class="navbar-bg"></div>
             <div class="navbar-inner">
-              <div class="title">About iMedia</div>
+              <div class="title">About iRecommend</div>
             </div>
           </div>
           <div class="page-content">
-            <div class="block">iMedia is an app that recommends underrated movies, books, and TV shows to users.</div>
+            <div class="block">iRecommend is an app that recommends underrated movies, books, and TV shows to users.</div>
           </div>
         </div>
       </div>

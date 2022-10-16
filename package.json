@@ -1,8 +1,8 @@
 {
-  "name": "imedia",
+  "name": "iRecommend",
   "private": true,
   "version": "1.0.0",
-  "description": "iMedia",
+  "description": "iRecommend",
   "repository": "",
   "license": "UNLICENSED",
   "scripts": {

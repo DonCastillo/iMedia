@@ -1,4 +1,4 @@
-# iMedia
+# iRecommend
 
 ## Framework7 CLI Options
 
@@ -6,11 +6,11 @@ Framework7 app created with following options:
 
 ```
 {
-  "cwd": "D:\\don-projects\\framework7\\iMedia",
+  "cwd": "D:\\don-projects\\framework7\\iRecommend",
   "type": [
     "cordova"
   ],
-  "name": "iMedia",
+  "name": "iRecommend",
   "framework": "core",
   "template": "tabs",
   "bundler": "vite",
