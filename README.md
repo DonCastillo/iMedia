@@ -3,6 +3,8 @@ Exercise 3 in NMED 3630: Mobile Application Development
 <br>
 Click here to view [exercise](./docs/MobileApp_Exercise3.pdf) description.
 
+##Minimum requirements:
+You should have node, npm, cordova, and Android studio already installed
 
 ## Steps to run the project
   1. Clone the repo
